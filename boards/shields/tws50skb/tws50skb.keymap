@@ -11,9 +11,15 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <
-                &kp N1 &kp N2    &kp N3 &kp N4
-                &kp A  &kp B     &kp C  &kp D
+            // Row 1
+            // Row 2
+            // Row 3
+            // Row 4
+            bindings = 
+                &kp ESC   &kp Q     &kp W    &kp E    &kp R    &kp T                                &kp Y    &kp U     &kp I     &kp O     &kp P     &kp BSPC
+                &kp TAB   &kp A     &kp S    &kp D    &kp F    &kp G                                &kp H    &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
+                &kp LSHFT &kp Z     &kp X    &kp C    &kp V    &kp B                                &kp N    &kp M     &kp COMMA &kp DOT   &kp UP    &kp RET
+                &kp LCTRL &none     &kp LGUI &kp LALT &none    &kp SPACE &kp LCTRL &kp LSHFT &kp SPACE &none  &none     &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
     };
