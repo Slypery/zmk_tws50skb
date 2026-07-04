@@ -11,7 +11,6 @@
         zmk,physical-layout = &default_layout;
     };
 
-    {
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
@@ -31,7 +30,6 @@
             , <&pro_micro 0 GPIO_ACTIVE_HIGH>   // col2
             , <&pro_micro 2 GPIO_ACTIVE_HIGH>   // col3
             ;
-        };
     };
 
     default_transform: matrix_transform {
