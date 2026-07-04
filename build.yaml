@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano
-    shield: tws50kb_left
+    shield: tws50skb_left
   - board: nice_nano
-    shield: tws50kb_right
+    shield: tws50skb_right
   - board: nice_nano
     shield: settings_reset
