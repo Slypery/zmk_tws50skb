@@ -26,9 +26,9 @@
             , <&pro_micro 16 GPIO_ACTIVE_HIGH>  // row9
             ;
         col-gpios
-            = <&pro_micro 1 GPIO_ACTIVE_HIGH>   // col1
-            , <&pro_micro 0 GPIO_ACTIVE_HIGH>   // col2
-            , <&pro_micro 2 GPIO_ACTIVE_HIGH>   // col3
+            = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // col1
+            , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // col2
+            , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // col3
             ;
     };
 
