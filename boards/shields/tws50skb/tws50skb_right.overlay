@@ -5,6 +5,5 @@
 #include "tws50skb.dtsi"
 
 &default_transform {
-    // Set this to the number of columns on the left side.
     col-offset = <3>;
 };
