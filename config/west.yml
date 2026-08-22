@@ -2,19 +2,13 @@ manifest:
   defaults:
     revision: v0.3
   remotes:
-    - name: zmk
-      url-base: https://github.com/Slypery
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: maurzo
-      url-base: https://github.com/maurzo
   projects:
     - name: zmk
-      remote: zmk
-      revision: debug-battery-discovery
+      remote: zmkfirmware
       import: app/west.yml
-    - name: zmk-behavior-battery-percentage-printer
-      remote: maurzo
-      revision: main
   self:
     path: config
