@@ -7,15 +7,15 @@
 #include <dt-bindings/zmk/modifiers.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+    ignore-modifiers;
+};
+
 / {
     // Define a default keymap here.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
-
-    &sk {
-        release-after-ms = <2000>;
-        quick-release;
-        ignore-modifiers;
-    };
 
     keymap {
         compatible = "zmk,keymap";
