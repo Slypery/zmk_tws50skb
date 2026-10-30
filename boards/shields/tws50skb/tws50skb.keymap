@@ -4,6 +4,12 @@
 #include <dt-bindings/zmk/modifiers.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+    ignore-modifiers;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
